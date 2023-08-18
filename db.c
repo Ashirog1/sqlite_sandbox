@@ -40,6 +40,7 @@ typedef struct {
 
 const __uint32_t PAGE_SIZE = 4096;
 #define TABLE_MAX_PAGES 100
+const __uint32_t ROW_SIZE;
 const __uint32_t ROWS_PER_PAGE = PAGE_SIZE / ROW_SIZE;
 const __uint32_t TABLE_MAX_ROWS = ROWS_PER_PAGE * TABLE_MAX_PAGES;
 
